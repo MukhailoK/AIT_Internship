@@ -1,0 +1,21 @@
+2023-06-21T00:09:51.058+02:00  INFO 31280 --- [main] a.G.demo.InternshipApplicationTests      : Starting InternshipApplicationTests using Java 18.0.2 with PID 31280 (started by kolot in E:\AIT\demo)
+2023-06-21T00:09:51.060+02:00  INFO 31280 --- [main] a.G.demo.InternshipApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:09:51.663+02:00  INFO 31280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:09:51.749+02:00  INFO 31280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:09:52.338+02:00  INFO 31280 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:09:52.541+02:00  INFO 31280 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:09:52.544+02:00  INFO 31280 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:09:52.823+02:00  INFO 31280 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:09:52.995+02:00  INFO 31280 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:09:53.015+02:00  INFO 31280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:09:53.257+02:00  INFO 31280 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T00:09:53.392+02:00  INFO 31280 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:09:53.419+02:00  INFO 31280 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:09:53.665+02:00  INFO 31280 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:09:54.402+02:00  INFO 31280 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:09:54.441+02:00  INFO 31280 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-21T00:09:54.442+02:00  INFO 31280 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:09:55.058+02:00  INFO 31280 --- [main] a.G.demo.InternshipApplicationTests      : Started InternshipApplicationTests in 4.38 seconds (process running for 5.911)
+2023-06-21T00:09:56.091+02:00  INFO 31280 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:09:56.092+02:00  INFO 31280 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:09:56.095+02:00  INFO 31280 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

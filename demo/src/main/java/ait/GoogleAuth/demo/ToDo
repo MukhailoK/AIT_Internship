@@ -1,0 +1,42 @@
+Task:
+Develop a Spring Boot application with Google Authentication integration to secure the endpoints. The application should allow users to sign in using their Google accounts and access protected resources based on their roles. Follow the instructions below to complete the task.
+
+Instructions:
+
+Set up a new Spring Boot project using your preferred build tool (Maven or Gradle).
+Configure the project dependencies for Spring Boot, Spring Security, and Google OAuth2.
+Implement a user entity with the following attributes:
+id (numeric identifier)
+name (user's full name)
+email (user's email address)
+roles (user roles, such as ROLE_USER or ROLE_ADMIN)
+
+Implement a database repository to perform CRUD operations for the user entity.
+
+Configure the application to use an embedded H2 database for simplicity.
+
+Configure the Spring Security module to enable OAuth2 login with Google.
+
+Implement a custom UserDetailsService to load user details from the database based on the authenticated user's email.
+Create a REST controller with the following endpoints:
+/api/public (accessible to all users): A public endpoint that returns a simple message.
+/api/private (accessible to authenticated users only): A protected endpoint that returns a message indicating successful authentication.
+/api/admin (accessible to users with the ROLE_ADMIN role only): A protected endpoint that returns a message indicating successful authentication and authorization for admin users.
+Write tests for each endpoint using a testing framework of your choice (JUnit, TestNG, etc.).
+Document the API endpoints using Swagger or any other API documentation tool of your choice.
+Deliverables:
+
+The complete source code of the Spring Boot application.
+A README file with instructions on how to build and run the application.
+A brief explanation of the authentication and authorization flow in the application.
+Any additional notes or considerations you encountered while implementing the task.
+Evaluation Criteria:
+
+Correctness and functionality of the application.
+Proper handling of authentication and authorization using Google OAuth2.
+Code quality, including modularity, maintainability, and best practices.
+Test coverage and quality of the test cases.
+Documentation and clarity of instructions.
+Note: Feel free to use any additional libraries, tools, or configurations you deem necessary to complete the task.
+
+Good luck, and have fun with the task!

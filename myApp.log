@@ -1,0 +1,765 @@
+2023-06-21T00:05:01.361+02:00  INFO 4836 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 4836 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:05:01.370+02:00  INFO 4836 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:05:02.080+02:00  INFO 4836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:05:02.140+02:00  INFO 4836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:05:02.564+02:00  INFO 4836 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:05:02.637+02:00  INFO 4836 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:05:02.640+02:00  INFO 4836 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:05:02.792+02:00  INFO 4836 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:05:02.960+02:00  INFO 4836 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:05:02.980+02:00  INFO 4836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:05:03.245+02:00  INFO 4836 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T00:05:03.248+02:00  INFO 4836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:05:03.273+02:00  INFO 4836 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:05:03.495+02:00  INFO 4836 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:05:04.156+02:00  INFO 4836 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:05:04.190+02:00  INFO 4836 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-21T00:05:04.191+02:00  INFO 4836 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:05:04.661+02:00  INFO 4836 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 3.872 seconds (process running for 4.623)
+2023-06-21T00:05:04.667+02:00  INFO 4836 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:05:04.669+02:00  INFO 4836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:05:04.671+02:00  INFO 4836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:10:19.492+02:00  INFO 8804 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 8804 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:10:19.496+02:00  INFO 8804 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:10:20.093+02:00  INFO 8804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:10:20.150+02:00  INFO 8804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:10:20.524+02:00  INFO 8804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:10:20.575+02:00  INFO 8804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:10:20.576+02:00  INFO 8804 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:10:20.711+02:00  INFO 8804 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:10:20.854+02:00  INFO 8804 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:10:20.870+02:00  INFO 8804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:10:21.102+02:00  INFO 8804 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T00:10:21.104+02:00  INFO 8804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:10:21.132+02:00  INFO 8804 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:10:21.340+02:00  INFO 8804 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:10:21.945+02:00  INFO 8804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:10:21.980+02:00  INFO 8804 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-21T00:10:21.982+02:00  INFO 8804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:10:22.454+02:00  INFO 8804 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 3.637 seconds (process running for 4.527)
+2023-06-21T00:10:22.462+02:00  INFO 8804 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:10:22.464+02:00  INFO 8804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:10:22.465+02:00  INFO 8804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:14:14.673+02:00  INFO 2396 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 2396 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:14:14.676+02:00  INFO 2396 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:14:15.208+02:00  INFO 2396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:14:15.259+02:00  INFO 2396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:14:15.617+02:00  INFO 2396 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:14:15.714+02:00  INFO 2396 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:14:15.716+02:00  INFO 2396 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:14:15.847+02:00  INFO 2396 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:14:15.970+02:00  INFO 2396 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:14:15.989+02:00  INFO 2396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:14:16.187+02:00  INFO 2396 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T00:14:16.189+02:00  INFO 2396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:14:16.213+02:00  INFO 2396 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:14:16.386+02:00  INFO 2396 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:14:16.991+02:00  INFO 2396 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:14:17.026+02:00  INFO 2396 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-21T00:14:17.028+02:00  INFO 2396 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:14:17.546+02:00  INFO 2396 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 3.328 seconds (process running for 4.127)
+2023-06-21T00:14:17.551+02:00  INFO 2396 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:14:17.553+02:00  INFO 2396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:14:17.556+02:00  INFO 2396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:14:27.506+02:00  INFO 5752 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 5752 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:14:27.509+02:00  INFO 5752 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:14:28.127+02:00  INFO 5752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:14:28.212+02:00  INFO 5752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:14:28.559+02:00  INFO 5752 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:14:28.608+02:00  INFO 5752 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:14:28.610+02:00  INFO 5752 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:14:28.747+02:00  INFO 5752 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:14:28.879+02:00  INFO 5752 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:14:28.895+02:00  INFO 5752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:14:29.092+02:00  INFO 5752 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T00:14:29.093+02:00  INFO 5752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:14:29.118+02:00  INFO 5752 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:14:29.301+02:00  INFO 5752 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:14:29.953+02:00  INFO 5752 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:14:30.048+02:00  INFO 5752 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-21T00:14:30.049+02:00  INFO 5752 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:14:30.524+02:00  INFO 5752 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 3.497 seconds (process running for 4.494)
+2023-06-21T00:14:30.784+02:00  INFO 5752 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:14:30.788+02:00  INFO 5752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:14:30.790+02:00  INFO 5752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:17:57.917+02:00  INFO 28812 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 28812 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:17:57.920+02:00  INFO 28812 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:17:58.467+02:00  INFO 28812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:17:58.521+02:00  INFO 28812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:17:58.857+02:00  INFO 28812 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:17:58.911+02:00  INFO 28812 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:17:58.912+02:00  INFO 28812 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:17:59.044+02:00  INFO 28812 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:17:59.200+02:00  INFO 28812 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:17:59.229+02:00  INFO 28812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:17:59.439+02:00  INFO 28812 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./todo4.db user=SA
+2023-06-21T00:17:59.563+02:00  INFO 28812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:17:59.588+02:00  INFO 28812 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:17:59.765+02:00  INFO 28812 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:18:00.379+02:00  INFO 28812 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:18:00.383+02:00  INFO 28812 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:18:00.846+02:00  INFO 28812 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 3.405 seconds (process running for 4.145)
+2023-06-21T00:18:00.853+02:00  INFO 28812 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:18:00.854+02:00  INFO 28812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:18:00.857+02:00  INFO 28812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:18:44.718+02:00  INFO 1852 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 1852 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:18:44.721+02:00  INFO 1852 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:18:45.217+02:00  INFO 1852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:18:45.269+02:00  INFO 1852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:18:45.632+02:00  INFO 1852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:18:45.683+02:00  INFO 1852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:18:45.685+02:00  INFO 1852 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:18:45.836+02:00  INFO 1852 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:18:45.962+02:00  INFO 1852 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:18:45.982+02:00  INFO 1852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:18:46.214+02:00  INFO 1852 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./todo4.db user=SA
+2023-06-21T00:18:46.215+02:00  INFO 1852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:18:46.240+02:00  INFO 1852 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:18:46.439+02:00  INFO 1852 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:18:47.038+02:00  INFO 1852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:18:47.041+02:00  INFO 1852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:18:47.491+02:00  INFO 1852 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 3.182 seconds (process running for 4.386)
+2023-06-21T00:18:47.498+02:00  INFO 1852 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:18:47.499+02:00  INFO 1852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:18:47.502+02:00  INFO 1852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:21:12.892+02:00  INFO 19672 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 19672 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:21:12.895+02:00  INFO 19672 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:21:13.458+02:00  INFO 19672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:21:13.680+02:00  INFO 19672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:21:14.027+02:00  INFO 19672 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:21:14.078+02:00  INFO 19672 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:21:14.080+02:00  INFO 19672 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:21:14.212+02:00  INFO 19672 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:21:14.339+02:00  INFO 19672 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:21:14.354+02:00  INFO 19672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:21:14.542+02:00  INFO 19672 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./todo4.db user=SA
+2023-06-21T00:21:14.543+02:00  INFO 19672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:21:14.568+02:00  INFO 19672 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:21:14.749+02:00  INFO 19672 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:21:15.356+02:00  INFO 19672 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:21:15.359+02:00  INFO 19672 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:21:15.853+02:00  INFO 19672 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 3.383 seconds (process running for 4.161)
+2023-06-21T00:21:15.859+02:00  INFO 19672 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:21:15.861+02:00  INFO 19672 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:21:15.864+02:00  INFO 19672 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:22:29.891+02:00  INFO 28984 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 28984 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:22:30.356+02:00  INFO 28984 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:22:30.880+02:00  INFO 28984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:22:30.942+02:00  INFO 28984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:22:31.298+02:00  INFO 28984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:22:31.362+02:00  INFO 28984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:22:31.364+02:00  INFO 28984 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:22:31.516+02:00  INFO 28984 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:22:31.648+02:00  INFO 28984 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:22:31.663+02:00  INFO 28984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:22:31.857+02:00  INFO 28984 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./todo4.db user=SA
+2023-06-21T00:22:31.858+02:00  INFO 28984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:22:31.883+02:00  INFO 28984 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:22:32.065+02:00  INFO 28984 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:22:32.662+02:00  INFO 28984 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:22:32.918+02:00  INFO 28984 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:22:33.422+02:00  INFO 28984 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 3.953 seconds (process running for 4.755)
+2023-06-21T00:22:33.428+02:00  INFO 28984 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:22:33.430+02:00  INFO 28984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:22:33.433+02:00  INFO 28984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:22:53.079+02:00  INFO 9504 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 9504 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:22:53.082+02:00  INFO 9504 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:22:53.626+02:00  INFO 9504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:22:53.681+02:00  INFO 9504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:22:54.027+02:00  INFO 9504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:22:54.080+02:00  INFO 9504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:22:54.082+02:00  INFO 9504 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:22:54.212+02:00  INFO 9504 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:22:54.347+02:00  INFO 9504 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:22:54.362+02:00  INFO 9504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:22:54.557+02:00  INFO 9504 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./todo4.db user=SA
+2023-06-21T00:22:54.559+02:00  INFO 9504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:22:54.583+02:00  INFO 9504 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:22:55.037+02:00  INFO 9504 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:22:55.673+02:00  INFO 9504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:22:55.676+02:00  INFO 9504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:22:56.140+02:00  INFO 9504 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 3.571 seconds (process running for 4.352)
+2023-06-21T00:22:56.556+02:00  INFO 9504 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:22:56.557+02:00  INFO 9504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:22:56.561+02:00  INFO 9504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:24:18.997+02:00  INFO 17512 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 17512 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:24:19.000+02:00  INFO 17512 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:24:19.719+02:00  INFO 17512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:24:19.793+02:00  INFO 17512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:24:20.153+02:00  INFO 17512 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:24:20.206+02:00  INFO 17512 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:24:20.208+02:00  INFO 17512 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:24:20.346+02:00  INFO 17512 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:24:20.479+02:00  INFO 17512 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:24:20.495+02:00  INFO 17512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:24:20.682+02:00  INFO 17512 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./todo4.db user=SA
+2023-06-21T00:24:20.684+02:00  INFO 17512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:24:20.713+02:00  INFO 17512 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:24:20.898+02:00  INFO 17512 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:24:21.513+02:00  INFO 17512 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:24:21.516+02:00  INFO 17512 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:24:22.007+02:00  INFO 17512 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 3.596 seconds (process running for 5.265)
+2023-06-21T00:24:22.013+02:00  INFO 17512 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:24:22.015+02:00  INFO 17512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:24:22.018+02:00  INFO 17512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:30:10.072+02:00  INFO 22476 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 22476 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:30:10.076+02:00  INFO 22476 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:30:10.809+02:00  INFO 22476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:30:10.868+02:00  INFO 22476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:30:11.436+02:00  INFO 22476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T00:30:11.445+02:00  INFO 22476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T00:30:11.446+02:00  INFO 22476 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T00:30:11.557+02:00  INFO 22476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T00:30:11.558+02:00  INFO 22476 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1420 ms
+2023-06-21T00:30:11.598+02:00  INFO 22476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:30:11.795+02:00  INFO 22476 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./todo4.db user=SA
+2023-06-21T00:30:11.808+02:00  INFO 22476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:30:11.818+02:00  INFO 22476 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:./todo4.db'
+2023-06-21T00:30:11.955+02:00  INFO 22476 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:30:12.020+02:00  INFO 22476 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:30:12.023+02:00  INFO 22476 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:30:12.166+02:00  INFO 22476 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:30:12.295+02:00  INFO 22476 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:30:12.328+02:00  INFO 22476 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:30:12.507+02:00  INFO 22476 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:30:13.093+02:00  INFO 22476 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:30:13.096+02:00  INFO 22476 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:30:13.430+02:00  WARN 22476 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-21T00:30:13.744+02:00  WARN 22476 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b63513c7-bb14-41ff-8cc5-86af080b2118
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-21T00:30:13.903+02:00  INFO 22476 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a15bbf3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46c19350, org.springframework.security.web.context.SecurityContextHolderFilter@460df441, org.springframework.security.web.header.HeaderWriterFilter@198524ec, org.springframework.security.web.csrf.CsrfFilter@734a2c17, org.springframework.security.web.authentication.logout.LogoutFilter@586b78d7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4518497e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@45b2b0ed, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5b4b6f3b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@551725e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d65c0ac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bc1903, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32d46229, org.springframework.security.web.access.ExceptionTranslationFilter@27bc2650, org.springframework.security.web.access.intercept.AuthorizationFilter@3677c508]
+2023-06-21T00:30:14.254+02:00  INFO 22476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9093 (http) with context path ''
+2023-06-21T00:30:14.263+02:00  INFO 22476 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 4.744 seconds (process running for 5.525)
+2023-06-21T00:31:07.889+02:00  INFO 22476 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T00:31:07.889+02:00  INFO 22476 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T00:31:07.890+02:00  INFO 22476 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-21T00:34:43.093+02:00  INFO 22476 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:34:43.096+02:00  INFO 22476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:34:43.097+02:00  INFO 22476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:34:51.868+02:00  INFO 8600 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 8600 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:34:51.872+02:00  INFO 8600 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:34:52.623+02:00  INFO 8600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:34:52.709+02:00  INFO 8600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:34:53.322+02:00  INFO 8600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T00:34:53.559+02:00  INFO 8600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T00:34:53.560+02:00  INFO 8600 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T00:34:53.718+02:00  INFO 8600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T00:34:53.723+02:00  INFO 8600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1785 ms
+2023-06-21T00:34:53.797+02:00  INFO 8600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:34:54.018+02:00  INFO 8600 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./todo4.db user=SA
+2023-06-21T00:34:54.019+02:00  INFO 8600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:34:54.030+02:00  INFO 8600 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:./todo4.db'
+2023-06-21T00:34:54.151+02:00  INFO 8600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:34:54.200+02:00  INFO 8600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:34:54.201+02:00  INFO 8600 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:34:54.341+02:00  INFO 8600 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:34:54.571+02:00  INFO 8600 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:34:54.601+02:00  INFO 8600 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:34:54.780+02:00  INFO 8600 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:34:55.380+02:00  INFO 8600 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:34:55.384+02:00  INFO 8600 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:34:55.704+02:00  WARN 8600 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-21T00:34:56.010+02:00  WARN 8600 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: eb095055-f1ad-4ffd-b6e6-da3ffec194b1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-21T00:34:56.143+02:00  INFO 8600 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@141eb85b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d432bc0, org.springframework.security.web.context.SecurityContextHolderFilter@5e94947e, org.springframework.security.web.header.HeaderWriterFilter@1360ef8d, org.springframework.security.web.csrf.CsrfFilter@761f1a28, org.springframework.security.web.authentication.logout.LogoutFilter@2a15bbf3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@396519b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@74e1d60b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6b04689e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7ddcd3d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bc1aa9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@586b78d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4be5b9b1, org.springframework.security.web.access.ExceptionTranslationFilter@531292ed, org.springframework.security.web.access.intercept.AuthorizationFilter@2e488e45]
+2023-06-21T00:34:56.206+02:00  INFO 8600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9093 (http) with context path ''
+2023-06-21T00:34:56.216+02:00  INFO 8600 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 4.842 seconds (process running for 6.298)
+2023-06-21T00:38:28.018+02:00  INFO 8600 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:38:28.020+02:00  INFO 8600 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:38:28.021+02:00  INFO 8600 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:38:32.253+02:00  INFO 26312 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 26312 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:38:32.257+02:00  INFO 26312 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:38:32.911+02:00  INFO 26312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:38:32.972+02:00  INFO 26312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:38:33.508+02:00  INFO 26312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T00:38:33.518+02:00  INFO 26312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T00:38:33.518+02:00  INFO 26312 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T00:38:33.617+02:00  INFO 26312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T00:38:33.618+02:00  INFO 26312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1307 ms
+2023-06-21T00:38:33.651+02:00  INFO 26312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:38:33.847+02:00  INFO 26312 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./todo4.db user=SA
+2023-06-21T00:38:34.247+02:00  INFO 26312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:38:34.258+02:00  INFO 26312 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:./todo4.db'
+2023-06-21T00:38:34.356+02:00  WARN 26312 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [E:\AIT\demo\target\classes\data.sql]: INSERT INTO users (id, email, role_id) VALUES (1, 'mike@mail.com', 1)
+2023-06-21T00:38:34.356+02:00  INFO 26312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:38:34.367+02:00  INFO 26312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:38:34.371+02:00  INFO 26312 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-21T00:38:34.382+02:00  INFO 26312 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-21T00:38:34.398+02:00 ERROR 26312 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [E:\AIT\demo\target\classes\data.sql]: INSERT INTO users (id, email, role_id) VALUES (1, 'mike@mail.com', 1)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) ~[spring-boot-3.1.0.jar:3.1.0]
+	at ait.GoogleAuth.demo.InternshipApplication.main(InternshipApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of file [E:\AIT\demo\target\classes\data.sql]: INSERT INTO users (id, email, role_id) VALUES (1, 'mike@mail.com', 1)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.9.jar:6.0.9]
+	... 18 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Referential integrity constraint violation: "FKP56C1712K691LHSYEWCSSF40F: PUBLIC.USERS FOREIGN KEY(ROLE_ID) REFERENCES PUBLIC.ROLES(ID) (CAST(1 AS BIGINT))"; SQL statement:
+INSERT INTO users (id, email, role_id) VALUES (1, 'mike@mail.com', 1) [23506-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.constraint.ConstraintReferential.checkRowOwnTable(ConstraintReferential.java:311) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:252) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.table.Table.fireConstraints(Table.java:1172) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.table.Table.fireAfterRow(Table.java:1190) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:188) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.dml.Insert.update(Insert.java:135) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Command.executeUpdate(Command.java:252) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:252) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	... 28 common frames omitted
+
+2023-06-21T00:40:50.641+02:00  INFO 25196 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 25196 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:40:50.847+02:00  INFO 25196 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:40:51.469+02:00  INFO 25196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:40:51.527+02:00  INFO 25196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:40:52.035+02:00  INFO 25196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T00:40:52.045+02:00  INFO 25196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T00:40:52.045+02:00  INFO 25196 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T00:40:52.142+02:00  INFO 25196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T00:40:52.142+02:00  INFO 25196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1231 ms
+2023-06-21T00:40:52.176+02:00  INFO 25196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:40:52.397+02:00  INFO 25196 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./todo4.db user=SA
+2023-06-21T00:40:52.409+02:00  INFO 25196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:40:52.420+02:00  INFO 25196 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:./todo4.db'
+2023-06-21T00:40:52.563+02:00  INFO 25196 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:40:52.614+02:00  INFO 25196 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:40:52.616+02:00  INFO 25196 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:40:52.755+02:00  INFO 25196 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:40:52.886+02:00  INFO 25196 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:40:52.921+02:00  INFO 25196 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:40:53.091+02:00  INFO 25196 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:40:54.215+02:00  INFO 25196 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:40:54.221+02:00  INFO 25196 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:40:54.566+02:00  WARN 25196 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-21T00:40:54.872+02:00  WARN 25196 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2a16edd4-6e0c-429a-9fb5-ff1a13ac4877
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-21T00:40:54.979+02:00  INFO 25196 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a6b214c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@81cd90e, org.springframework.security.web.context.SecurityContextHolderFilter@1fce6eb4, org.springframework.security.web.header.HeaderWriterFilter@58c80957, org.springframework.security.web.csrf.CsrfFilter@72998021, org.springframework.security.web.authentication.logout.LogoutFilter@1dbfbd94, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@779136bf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1a06ec24, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@65fa56f7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@62d21afd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35e7fcf2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21d6dc81, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@232be28d, org.springframework.security.web.access.ExceptionTranslationFilter@7a7bb083, org.springframework.security.web.access.intercept.AuthorizationFilter@3adb4cc8]
+2023-06-21T00:40:55.046+02:00  INFO 25196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9093 (http) with context path ''
+2023-06-21T00:40:55.055+02:00  INFO 25196 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 4.881 seconds (process running for 5.744)
+2023-06-21T00:41:42.849+02:00  INFO 25196 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T00:41:42.850+02:00  INFO 25196 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T00:41:42.852+02:00  INFO 25196 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-21T00:42:32.464+02:00  INFO 25196 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:42:32.466+02:00  INFO 25196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:42:32.467+02:00  INFO 25196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:42:37.103+02:00  INFO 16248 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 16248 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:42:37.106+02:00  INFO 16248 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:42:37.798+02:00  INFO 16248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:42:37.858+02:00  INFO 16248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:42:38.374+02:00  INFO 16248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T00:42:38.382+02:00  INFO 16248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T00:42:38.382+02:00  INFO 16248 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T00:42:38.476+02:00  INFO 16248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T00:42:38.476+02:00  INFO 16248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1321 ms
+2023-06-21T00:42:38.507+02:00  INFO 16248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:42:38.715+02:00  INFO 16248 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T00:42:38.717+02:00  INFO 16248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:42:38.726+02:00  INFO 16248 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:authdb'
+2023-06-21T00:42:38.860+02:00  INFO 16248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:42:38.910+02:00  INFO 16248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:42:38.912+02:00  INFO 16248 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:42:39.054+02:00  INFO 16248 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:42:39.190+02:00  INFO 16248 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:42:39.221+02:00  INFO 16248 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:42:39.404+02:00  INFO 16248 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:42:39.992+02:00  INFO 16248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:42:40.024+02:00  INFO 16248 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-21T00:42:40.025+02:00  INFO 16248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:42:40.339+02:00  WARN 16248 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-21T00:42:40.643+02:00  WARN 16248 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f8b131be-9de8-44d2-9771-e7f993ae0587
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-21T00:42:40.752+02:00  INFO 16248 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28c00acd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@590f806a, org.springframework.security.web.context.SecurityContextHolderFilter@1104ad6a, org.springframework.security.web.header.HeaderWriterFilter@7db70494, org.springframework.security.web.csrf.CsrfFilter@315365ef, org.springframework.security.web.authentication.logout.LogoutFilter@506e382b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@202d1424, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1443539, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2267b0bb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@63b2418e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73e63b4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e5ed0d4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20505460, org.springframework.security.web.access.ExceptionTranslationFilter@1c41931a, org.springframework.security.web.access.intercept.AuthorizationFilter@577f81a0]
+2023-06-21T00:42:40.819+02:00  INFO 16248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9093 (http) with context path ''
+2023-06-21T00:42:40.827+02:00  INFO 16248 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 4.189 seconds (process running for 4.913)
+2023-06-21T00:42:56.798+02:00  INFO 16248 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T00:42:56.798+02:00  INFO 16248 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T00:42:56.800+02:00  INFO 16248 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-21T00:43:21.082+02:00  INFO 16248 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:43:21.084+02:00  INFO 16248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:43:21.085+02:00  INFO 16248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:43:27.932+02:00  INFO 30372 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 30372 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:43:27.935+02:00  INFO 30372 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:43:28.604+02:00  INFO 30372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:43:28.668+02:00  INFO 30372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:43:29.433+02:00  INFO 30372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T00:43:29.833+02:00  INFO 30372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T00:43:29.834+02:00  INFO 30372 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T00:43:29.955+02:00  INFO 30372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T00:43:29.955+02:00  INFO 30372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1971 ms
+2023-06-21T00:43:29.989+02:00  INFO 30372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:43:30.170+02:00  INFO 30372 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T00:43:30.172+02:00  INFO 30372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:43:30.181+02:00  INFO 30372 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:authdb'
+2023-06-21T00:43:30.328+02:00  INFO 30372 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:43:30.380+02:00  INFO 30372 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:43:30.384+02:00  INFO 30372 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:43:30.526+02:00  INFO 30372 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:43:30.861+02:00  INFO 30372 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:43:30.910+02:00  INFO 30372 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:43:31.100+02:00  INFO 30372 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:43:31.678+02:00  INFO 30372 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:43:31.705+02:00  INFO 30372 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-21T00:43:31.706+02:00  INFO 30372 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:43:32.033+02:00  WARN 30372 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-21T00:43:32.333+02:00  WARN 30372 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0aaae572-2f6b-417d-86a5-6fadc3e15325
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-21T00:43:32.447+02:00  INFO 30372 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@48d24d63, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@695c8b32, org.springframework.security.web.context.SecurityContextHolderFilter@5df7ae0a, org.springframework.security.web.header.HeaderWriterFilter@68838767, org.springframework.security.web.csrf.CsrfFilter@41c83af0, org.springframework.security.web.authentication.logout.LogoutFilter@2faae7f6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68cc6319, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@36c1b6ff, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1adec8d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@506e382b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36dc6b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2571bdf4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6eb332d1, org.springframework.security.web.access.ExceptionTranslationFilter@17873842, org.springframework.security.web.access.intercept.AuthorizationFilter@3cf7433e]
+2023-06-21T00:43:32.513+02:00  INFO 30372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9093 (http) with context path ''
+2023-06-21T00:43:32.521+02:00  INFO 30372 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 5.159 seconds (process running for 6.39)
+2023-06-21T00:47:10.083+02:00  INFO 30372 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:47:10.085+02:00  INFO 30372 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:47:10.088+02:00  INFO 30372 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:47:16.549+02:00  INFO 22896 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 22896 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:47:16.553+02:00  INFO 22896 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:47:17.468+02:00  INFO 22896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:47:17.757+02:00  INFO 22896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:47:18.300+02:00  INFO 22896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T00:47:18.309+02:00  INFO 22896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T00:47:18.309+02:00  INFO 22896 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T00:47:18.405+02:00  INFO 22896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T00:47:18.406+02:00  INFO 22896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1789 ms
+2023-06-21T00:47:18.435+02:00  INFO 22896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:47:18.630+02:00  INFO 22896 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T00:47:18.644+02:00  INFO 22896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:47:18.653+02:00  INFO 22896 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:authdb'
+2023-06-21T00:47:18.802+02:00  INFO 22896 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:47:18.856+02:00  INFO 22896 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:47:18.859+02:00  INFO 22896 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:47:18.997+02:00  INFO 22896 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:47:19.130+02:00  INFO 22896 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:47:19.162+02:00  INFO 22896 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:47:19.355+02:00  INFO 22896 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:47:19.947+02:00  INFO 22896 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:47:20.316+02:00  INFO 22896 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-21T00:47:20.318+02:00  INFO 22896 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:47:20.638+02:00  WARN 22896 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-21T00:47:20.939+02:00  WARN 22896 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 06818f93-f3d5-41f1-94c6-f6b7dd980cc5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-21T00:47:21.042+02:00  INFO 22896 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@8eeb4c5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dc77962, org.springframework.security.web.context.SecurityContextHolderFilter@3c717ef2, org.springframework.security.web.header.HeaderWriterFilter@54d2887a, org.springframework.security.web.csrf.CsrfFilter@36dc6b9, org.springframework.security.web.authentication.logout.LogoutFilter@695c8b32, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@eb09112, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@36ec4071, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@32bae609, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@590f806a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e5ed0d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@673a5aa7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@106b476a, org.springframework.security.web.access.ExceptionTranslationFilter@2fca9fae, org.springframework.security.web.access.intercept.AuthorizationFilter@467421cc]
+2023-06-21T00:47:21.112+02:00  INFO 22896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9093 (http) with context path ''
+2023-06-21T00:47:21.120+02:00  INFO 22896 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 5.129 seconds (process running for 6.083)
+2023-06-21T00:48:38.371+02:00  INFO 22896 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:48:38.373+02:00  INFO 22896 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:48:38.375+02:00  INFO 22896 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:48:42.569+02:00  INFO 9484 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 9484 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:48:42.571+02:00  INFO 9484 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:48:43.233+02:00  INFO 9484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:48:43.383+02:00  INFO 9484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:48:43.893+02:00  INFO 9484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T00:48:43.916+02:00  INFO 9484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T00:48:43.916+02:00  INFO 9484 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T00:48:44.013+02:00  INFO 9484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T00:48:44.013+02:00  INFO 9484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1396 ms
+2023-06-21T00:48:44.042+02:00  INFO 9484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:48:44.238+02:00  INFO 9484 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T00:48:44.241+02:00  INFO 9484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:48:44.261+02:00  INFO 9484 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:authdb'
+2023-06-21T00:48:44.359+02:00  WARN 9484 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [E:\AIT\demo\target\classes\data.sql]: INSERT INTO users (id, name, email, role) VALUES (1, 'Mike', 'mike@mail.com', ROLE_ADMIN)
+2023-06-21T00:48:44.359+02:00  INFO 9484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:48:44.373+02:00  INFO 9484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:48:44.378+02:00  INFO 9484 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-21T00:48:44.396+02:00  INFO 9484 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-21T00:48:44.416+02:00 ERROR 9484 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [E:\AIT\demo\target\classes\data.sql]: INSERT INTO users (id, name, email, role) VALUES (1, 'Mike', 'mike@mail.com', ROLE_ADMIN)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) ~[spring-boot-3.1.0.jar:3.1.0]
+	at ait.GoogleAuth.demo.InternshipApplication.main(InternshipApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of file [E:\AIT\demo\target\classes\data.sql]: INSERT INTO users (id, name, email, role) VALUES (1, 'Mike', 'mike@mail.com', ROLE_ADMIN)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.9.jar:6.0.9]
+	... 18 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ROLE_ADMIN" not found; SQL statement:
+INSERT INTO users (id, name, email, role) VALUES (1, 'Mike', 'mike@mail.com', ROLE_ADMIN) [42122-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:300) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.prepareCommand(Parser.java:575) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	... 28 common frames omitted
+
+2023-06-21T00:49:41.243+02:00  INFO 2652 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 2652 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:49:41.247+02:00  INFO 2652 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:49:41.886+02:00  INFO 2652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:49:42.271+02:00  INFO 2652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:49:42.796+02:00  INFO 2652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T00:49:42.805+02:00  INFO 2652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T00:49:42.805+02:00  INFO 2652 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T00:49:42.900+02:00  INFO 2652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T00:49:42.901+02:00  INFO 2652 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1590 ms
+2023-06-21T00:49:42.933+02:00  INFO 2652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:49:43.132+02:00  INFO 2652 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T00:49:43.158+02:00  INFO 2652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:49:43.168+02:00  INFO 2652 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:authdb'
+2023-06-21T00:49:43.253+02:00  WARN 2652 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [E:\AIT\demo\target\classes\data.sql]: INSERT INTO users (id, name, email, role) VALUES (1, 'Mike', 'mike@mail.com', ROLE_ADMIN)
+2023-06-21T00:49:43.254+02:00  INFO 2652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T00:49:43.257+02:00  INFO 2652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T00:49:43.260+02:00  INFO 2652 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-21T00:49:43.272+02:00  INFO 2652 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-21T00:49:43.290+02:00 ERROR 2652 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [E:\AIT\demo\target\classes\data.sql]: INSERT INTO users (id, name, email, role) VALUES (1, 'Mike', 'mike@mail.com', ROLE_ADMIN)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) ~[spring-boot-3.1.0.jar:3.1.0]
+	at ait.GoogleAuth.demo.InternshipApplication.main(InternshipApplication.java:10) ~[classes/:na]
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of file [E:\AIT\demo\target\classes\data.sql]: INSERT INTO users (id, name, email, role) VALUES (1, 'Mike', 'mike@mail.com', ROLE_ADMIN)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.9.jar:6.0.9]
+	... 18 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ROLE_ADMIN" not found; SQL statement:
+INSERT INTO users (id, name, email, role) VALUES (1, 'Mike', 'mike@mail.com', ROLE_ADMIN) [42122-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:300) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Parser.prepareCommand(Parser.java:575) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261) ~[spring-jdbc-6.0.9.jar:6.0.9]
+	... 28 common frames omitted
+
+2023-06-21T00:51:44.051+02:00  INFO 27668 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 27668 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T00:51:44.055+02:00  INFO 27668 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:51:44.706+02:00  INFO 27668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T00:51:44.761+02:00  INFO 27668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-06-21T00:51:45.263+02:00  INFO 27668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T00:51:45.273+02:00  INFO 27668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T00:51:45.274+02:00  INFO 27668 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T00:51:45.375+02:00  INFO 27668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T00:51:45.375+02:00  INFO 27668 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1267 ms
+2023-06-21T00:51:45.405+02:00  INFO 27668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T00:51:45.603+02:00  INFO 27668 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T00:51:45.615+02:00  INFO 27668 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T00:51:45.625+02:00  INFO 27668 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:authdb'
+2023-06-21T00:51:45.763+02:00  INFO 27668 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T00:51:45.813+02:00  INFO 27668 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T00:51:45.815+02:00  INFO 27668 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T00:51:45.956+02:00  INFO 27668 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:51:46.084+02:00  INFO 27668 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T00:51:46.115+02:00  INFO 27668 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T00:51:46.309+02:00  INFO 27668 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T00:51:46.900+02:00  INFO 27668 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T00:51:46.970+02:00  INFO 27668 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-21T00:51:46.971+02:00  INFO 27668 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T00:51:47.309+02:00  WARN 27668 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-21T00:51:47.620+02:00  WARN 27668 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2c328025-2495-4503-ad0e-ef0d151b1d6d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-21T00:51:47.724+02:00  INFO 27668 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6eb332d1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34d0c331, org.springframework.security.web.context.SecurityContextHolderFilter@5cff6d1d, org.springframework.security.web.header.HeaderWriterFilter@5df7ae0a, org.springframework.security.web.csrf.CsrfFilter@3ec98000, org.springframework.security.web.authentication.logout.LogoutFilter@5b160208, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@522f74a1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@278cbf5a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3958db82, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@48d24d63, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4844e24b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11678469, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@577f81a0, org.springframework.security.web.access.ExceptionTranslationFilter@315365ef, org.springframework.security.web.access.intercept.AuthorizationFilter@544733a4]
+2023-06-21T00:51:47.792+02:00  INFO 27668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9093 (http) with context path ''
+2023-06-21T00:51:47.801+02:00  INFO 27668 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 4.254 seconds (process running for 5.084)
+2023-06-21T00:52:10.345+02:00  INFO 27668 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T00:52:10.345+02:00  INFO 27668 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T00:52:10.347+02:00  INFO 27668 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-21T01:18:57.286+02:00  INFO 27668 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T01:18:57.289+02:00  INFO 27668 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T01:18:57.290+02:00  INFO 27668 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T01:21:27.034+02:00  INFO 28968 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 28968 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T01:21:27.040+02:00  INFO 28968 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T01:21:27.739+02:00  INFO 28968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T01:21:27.798+02:00  INFO 28968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2023-06-21T01:21:28.381+02:00  INFO 28968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T01:21:28.392+02:00  INFO 28968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T01:21:28.392+02:00  INFO 28968 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T01:21:28.490+02:00  INFO 28968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T01:21:28.491+02:00  INFO 28968 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1396 ms
+2023-06-21T01:21:28.522+02:00  INFO 28968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T01:21:28.725+02:00  INFO 28968 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T01:21:28.737+02:00  INFO 28968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T01:21:28.748+02:00  INFO 28968 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:authdb'
+2023-06-21T01:21:28.891+02:00  INFO 28968 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T01:21:28.990+02:00  INFO 28968 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T01:21:28.993+02:00  INFO 28968 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T01:21:29.147+02:00  INFO 28968 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T01:21:29.276+02:00  INFO 28968 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T01:21:29.606+02:00  INFO 28968 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T01:21:29.786+02:00  INFO 28968 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T01:21:30.371+02:00  INFO 28968 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T01:21:30.399+02:00  INFO 28968 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-21T01:21:30.401+02:00  INFO 28968 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T01:21:30.720+02:00  WARN 28968 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-21T01:21:31.614+02:00  WARN 28968 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d0f88563-e82e-41e4-880e-9a56d922d8ff
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-21T01:21:31.727+02:00  INFO 28968 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@39acf187, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@643a73fa, org.springframework.security.web.context.SecurityContextHolderFilter@1adec8d, org.springframework.security.web.header.HeaderWriterFilter@170f0fd6, org.springframework.security.web.csrf.CsrfFilter@5b160208, org.springframework.security.web.authentication.logout.LogoutFilter@543196f9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d568cff, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2b06c388, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@dd3e1e3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@263f6e96, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34d0c331, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1256925b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2686a801, org.springframework.security.web.access.ExceptionTranslationFilter@506e382b, org.springframework.security.web.access.intercept.AuthorizationFilter@769a9b7a]
+2023-06-21T01:21:31.790+02:00  INFO 28968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9093 (http) with context path ''
+2023-06-21T01:21:31.798+02:00  INFO 28968 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 5.36 seconds (process running for 6.144)
+2023-06-21T01:21:43.201+02:00  INFO 28968 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T01:21:43.203+02:00  INFO 28968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-21T01:21:43.204+02:00  INFO 28968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-21T01:21:46.884+02:00  INFO 27632 --- [main] a.GoogleAuth.demo.InternshipApplication  : Starting InternshipApplication using Java 18.0.2 with PID 27632 (E:\AIT\demo\target\classes started by kolot in E:\AIT)
+2023-06-21T01:21:46.888+02:00  INFO 27632 --- [main] a.GoogleAuth.demo.InternshipApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T01:21:47.599+02:00  INFO 27632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-21T01:21:47.660+02:00  INFO 27632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2023-06-21T01:21:48.210+02:00  INFO 27632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9093 (http)
+2023-06-21T01:21:48.229+02:00  INFO 27632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T01:21:48.230+02:00  INFO 27632 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T01:21:48.330+02:00  INFO 27632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T01:21:48.330+02:00  INFO 27632 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1384 ms
+2023-06-21T01:21:48.358+02:00  INFO 27632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-21T01:21:48.546+02:00  INFO 27632 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:authdb user=SA
+2023-06-21T01:21:48.548+02:00  INFO 27632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-21T01:21:48.558+02:00  INFO 27632 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:authdb'
+2023-06-21T01:21:48.712+02:00  INFO 27632 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-21T01:21:48.766+02:00  INFO 27632 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-21T01:21:48.769+02:00  INFO 27632 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-21T01:21:48.906+02:00  INFO 27632 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T01:21:49.037+02:00  INFO 27632 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-21T01:21:49.069+02:00  INFO 27632 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-21T01:21:49.311+02:00  INFO 27632 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-21T01:21:49.894+02:00  INFO 27632 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-21T01:21:49.920+02:00  INFO 27632 --- [main] o.h.t.s.i.e.GenerationTargetToDatabase   : HHH000476: Executing script '[injected ScriptSourceInputNonExistentImpl script]'
+2023-06-21T01:21:49.921+02:00  INFO 27632 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-21T01:21:50.266+02:00  WARN 27632 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-21T01:21:50.578+02:00  WARN 27632 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f5161efe-5f2c-4a43-be1c-48561739b459
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-21T01:21:50.697+02:00  INFO 27632 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@590f806a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2267b0bb, org.springframework.security.web.context.SecurityContextHolderFilter@54d2887a, org.springframework.security.web.header.HeaderWriterFilter@3f030217, org.springframework.security.web.csrf.CsrfFilter@1f381eaf, org.springframework.security.web.authentication.logout.LogoutFilter@5a464be7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1256925b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5b160208, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@20505460, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@70d16858, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8aafd70, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61c0fb12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8eeb4c5, org.springframework.security.web.access.ExceptionTranslationFilter@62cb977a, org.springframework.security.web.access.intercept.AuthorizationFilter@202d1424]
+2023-06-21T01:21:50.770+02:00  INFO 27632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9093 (http) with context path ''
+2023-06-21T01:21:50.778+02:00  INFO 27632 --- [main] a.GoogleAuth.demo.InternshipApplication  : Started InternshipApplication in 4.385 seconds (process running for 5.158)
