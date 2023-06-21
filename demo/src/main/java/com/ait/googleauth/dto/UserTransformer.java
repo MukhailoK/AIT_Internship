@@ -1,8 +1,8 @@
-package ait.GoogleAuth.demo.dto;
+package com.ait.googleauth.dto;
 
 
-import ait.GoogleAuth.demo.model.User;
-import ait.GoogleAuth.demo.service.UserService;
+import com.ait.googleauth.model.User;
+import com.ait.googleauth.service.UserService;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.BindingResult;
 

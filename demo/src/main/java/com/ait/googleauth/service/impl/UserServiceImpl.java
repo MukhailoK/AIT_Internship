@@ -1,9 +1,9 @@
-package ait.GoogleAuth.demo.service.impl;
+package com.ait.googleauth.service.impl;
 
-import ait.GoogleAuth.demo.model.Role;
-import ait.GoogleAuth.demo.model.User;
-import ait.GoogleAuth.demo.repository.UserRepository;
-import ait.GoogleAuth.demo.service.UserService;
+import com.ait.googleauth.model.Role;
+import com.ait.googleauth.model.User;
+import com.ait.googleauth.repository.UserRepository;
+import com.ait.googleauth.service.UserService;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Service;
 

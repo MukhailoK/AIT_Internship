@@ -1,6 +1,6 @@
-package ait.GoogleAuth.demo.repository;
+package com.ait.googleauth.repository;
 
-import ait.GoogleAuth.demo.model.User;
+import com.ait.googleauth.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

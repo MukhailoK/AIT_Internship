@@ -1,7 +1,7 @@
-package ait.GoogleAuth.demo.dto;
+package com.ait.googleauth.dto;
 
 
-import ait.GoogleAuth.demo.model.Role;
+import com.ait.googleauth.model.Role;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;

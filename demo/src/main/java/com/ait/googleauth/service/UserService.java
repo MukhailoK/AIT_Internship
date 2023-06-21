@@ -1,6 +1,6 @@
-package ait.GoogleAuth.demo.service;
+package com.ait.googleauth.service;
 
-import ait.GoogleAuth.demo.model.User;
+import com.ait.googleauth.model.User;
 
 import java.util.List;
 

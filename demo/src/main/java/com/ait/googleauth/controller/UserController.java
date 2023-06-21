@@ -1,11 +1,11 @@
-package ait.GoogleAuth.demo.controller;
+package com.ait.googleauth.controller;
 
 
-import ait.GoogleAuth.demo.dto.UserDto;
-import ait.GoogleAuth.demo.dto.UserResponse;
-import ait.GoogleAuth.demo.dto.UserTransformer;
-import ait.GoogleAuth.demo.model.User;
-import ait.GoogleAuth.demo.service.UserService;
+import com.ait.googleauth.dto.UserDto;
+import com.ait.googleauth.dto.UserResponse;
+import com.ait.googleauth.dto.UserTransformer;
+import com.ait.googleauth.model.User;
+import com.ait.googleauth.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

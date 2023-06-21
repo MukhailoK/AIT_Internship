@@ -1,6 +1,6 @@
-package ait.GoogleAuth.demo.dto;
+package com.ait.googleauth.dto;
 
-import ait.GoogleAuth.demo.model.User;
+import com.ait.googleauth.model.User;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 

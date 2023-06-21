@@ -1,4 +1,4 @@
-package ait.GoogleAuth.demo.model;
+package com.ait.googleauth.model;
 
 
 import jakarta.persistence.*;
