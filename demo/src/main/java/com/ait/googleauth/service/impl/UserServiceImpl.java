@@ -4,9 +4,9 @@ import com.ait.googleauth.model.Role;
 import com.ait.googleauth.model.User;
 import com.ait.googleauth.repository.UserRepository;
 import com.ait.googleauth.service.UserService;
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.EntityNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
